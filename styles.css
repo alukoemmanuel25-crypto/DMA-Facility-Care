@@ -2323,14 +2323,14 @@ body {
   overflow: hidden;
   color: #f5eee7;
   background:
-    linear-gradient(90deg, rgba(33, 31, 28, 0.98) 0%, rgba(40, 37, 33, 0.94) 36%, rgba(44, 45, 38, 0.69) 58%, rgba(33, 36, 31, 0.2) 100%),
+    linear-gradient(90deg, rgba(33, 31, 28, 0.82) 0%, rgba(40, 37, 33, 0.68) 36%, rgba(44, 45, 38, 0.34) 58%, rgba(33, 36, 31, 0.06) 100%),
     url("assets/dma-premium-cleaning-team.png") 56% 4% / auto 175% no-repeat;
   border-bottom: 1px solid #9d876f;
 }
 
 html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .page-hero {
   background:
-    linear-gradient(90deg, rgba(33, 31, 28, 0.98) 0%, rgba(40, 37, 33, 0.94) 43%, rgba(44, 45, 38, 0.52) 70%, rgba(33, 36, 31, 0.12) 100%),
+    linear-gradient(90deg, rgba(33, 31, 28, 0.68) 0%, rgba(40, 37, 33, 0.52) 43%, rgba(44, 45, 38, 0.2) 70%, rgba(33, 36, 31, 0.02) 100%),
     url("assets/dma-after-living-room.jpg") 62% center / cover no-repeat;
 }
 
@@ -2362,6 +2362,7 @@ html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .pa
   color: #f7f0e8;
   font: 400 clamp(56px, 4.3vw, 78px) / 0.97 "Hammersmith One", "Segoe UI", sans-serif;
   letter-spacing: -0.035em;
+  text-shadow: 0 3px 22px rgba(0, 0, 0, 0.4);
   text-wrap: balance;
 }
 
@@ -2371,6 +2372,7 @@ html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .pa
   color: #ddd3c9;
   font-size: clamp(17px, 1.25vw, 20px);
   line-height: 1.62;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.48);
   text-wrap: pretty;
 }
 
@@ -2475,13 +2477,13 @@ html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .pa
   .page-hero {
     min-height: 650px;
     background:
-      linear-gradient(90deg, rgba(33, 31, 28, 0.98) 0%, rgba(40, 37, 33, 0.91) 54%, rgba(35, 37, 32, 0.45) 100%),
+      linear-gradient(90deg, rgba(33, 31, 28, 0.78) 0%, rgba(40, 37, 33, 0.62) 54%, rgba(35, 37, 32, 0.22) 100%),
       url("assets/dma-premium-cleaning-team.png") 57% 4% / auto 175% no-repeat;
   }
 
   html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .page-hero {
     background:
-      linear-gradient(90deg, rgba(33, 31, 28, 0.98) 0%, rgba(40, 37, 33, 0.91) 56%, rgba(35, 37, 32, 0.36) 100%),
+      linear-gradient(90deg, rgba(33, 31, 28, 0.7) 0%, rgba(40, 37, 33, 0.54) 56%, rgba(35, 37, 32, 0.17) 100%),
       url("assets/dma-after-living-room.jpg") 68% center / cover no-repeat;
   }
 
@@ -2540,13 +2542,13 @@ html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .pa
     min-height: auto;
     padding: 76px 0 70px;
     background:
-      linear-gradient(90deg, rgba(33, 31, 28, 0.97), rgba(40, 37, 33, 0.84)),
+      linear-gradient(90deg, rgba(33, 31, 28, 0.76), rgba(40, 37, 33, 0.5)),
       url("assets/dma-premium-cleaning-team.png") 58% 3% / auto 165% no-repeat;
   }
 
   html:has(link[rel="canonical"][href*="residential-cleaning-london-ontario"]) .page-hero {
     background:
-      linear-gradient(90deg, rgba(33, 31, 28, 0.96), rgba(40, 37, 33, 0.79)),
+      linear-gradient(90deg, rgba(33, 31, 28, 0.68), rgba(40, 37, 33, 0.42)),
       url("assets/dma-after-living-room.jpg") 66% center / cover no-repeat;
   }
 
