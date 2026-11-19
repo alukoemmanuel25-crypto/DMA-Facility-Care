@@ -45,27 +45,6 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-const animatedItems = document.querySelectorAll(".feature-card, .service-card, .standard-steps article, .industry-grid span, .process-grid article, .review-card, .commitment-card, details");
-animatedItems.forEach((item) => item.setAttribute("data-animate", ""));
-
-if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.12 }
-  );
-
-  animatedItems.forEach((item) => observer.observe(item));
-} else {
-  animatedItems.forEach((item) => item.classList.add("is-visible"));
-}
-
 document.querySelectorAll("a[href^='tel:']").forEach((link) => {
   link.addEventListener("click", () => trackEvent("phone_click", { link_url: link.href }));
 });
